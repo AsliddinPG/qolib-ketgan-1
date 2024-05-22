@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.user{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(167, 167, 167);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.user-item{
+    width: 600px;
+    height: 200px;
+    background-color: white;
+    padding: 20px;
+    display: flex;  
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.in{
+    color: rgb(59, 59, 255);
+    font-size: 50px;
+}
+
+.up{
+    color: rgb(0, 184, 0);
+    font-size: 50px;
+}
+
+.luck{
+    color: red;
+    font-size: 50px;
+}
+
+.password{
+    color: coral;
+    font-size: 50px;
+}
